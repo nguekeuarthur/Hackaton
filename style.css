@@ -1,0 +1,152 @@
+/* Styles généraux */
+.main {
+    padding: 1rem 2rem;
+}
+
+/* Style du titre principal */
+.stTitle {
+    color: #1E88E5;
+    font-weight: 700;
+    text-align: center;
+    background: linear-gradient(120deg, #1E88E5 0%, #5E35B1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 1rem 0;
+}
+
+/* Style des sous-titres */
+.stSubheader {
+    color: #424242;
+    font-weight: 600;
+    border-left: 4px solid #1E88E5;
+    padding-left: 1rem;
+    margin: 2rem 0 1rem 0;
+}
+
+/* Style de la barre latérale */
+.sidebar .sidebar-content {
+    background-color: #f8f9fa;
+}
+
+/* Style des métriques */
+[data-testid="stMetricValue"] {
+    font-size: 2rem !important;
+    color: #1E88E5;
+    font-weight: 700;
+}
+
+[data-testid="stMetricDelta"] {
+    font-size: 1rem;
+    color: #4CAF50;
+}
+
+[data-testid="stMetricLabel"] {
+    font-weight: 600;
+    color: #616161;
+}
+
+/* Style des cartes pour les graphiques */
+[data-testid="stPlotlyChart"] > div {
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+[data-testid="stPlotlyChart"] > div:hover {
+    transform: translateY(-2px);
+}
+
+/* Style des sélecteurs */
+.stSelectbox, .stMultiSelect {
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Style des boutons */
+.stButton > button {
+    background-color: #1E88E5;
+    color: white;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+    border: none;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.stButton > button:hover {
+    background-color: #1976D2;
+}
+
+/* Style des alertes */
+.stAlert {
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Personnalisation des colonnes */
+.row-widget.stRow {
+    background: white;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Style des tableaux */
+[data-testid="stTable"] {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Amélioration des filtres dans la barre latérale */
+.sidebar .sidebar-content {
+    padding: 2rem 1rem;
+}
+
+.sidebar .sidebar-content [data-testid="stHeader"] {
+    background-color: #1E88E5;
+    color: white;
+    padding: 1rem;
+    margin: -2rem -1rem 1rem -1rem;
+    border-radius: 0 0 8px 8px;
+}
+
+/* Style des onglets */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 2rem;
+}
+
+.stTabs [data-baseweb="tab"] {
+    height: 50px;
+    background-color: white;
+    border-radius: 4px;
+    color: #616161;
+    font-weight: 600;
+}
+
+.stTabs [aria-selected="true"] {
+    background-color: #1E88E5;
+    color: white;
+}
+
+/* Animation de chargement personnalisée */
+.stProgress .st-bo {
+    background-color: #1E88E5;
+}
+
+/* Style des liens */
+a {
+    color: #1E88E5;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+}
