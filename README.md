@@ -256,19 +256,4 @@ load_css()
 styled_title("Titre")
 \`\`\`
 
-### Modification du style
-1. Éditer `style.css`
-2. Mettre à jour les classes CSS
-3. Vérifier la cohérence globale
-
-### Mise à jour des données
-1. Conserver le même format CSV
-2. Respecter les noms de colonnes
-3. Mettre à jour les filtres si nécessaire
-
-### Bonnes pratiques
-- Commenter le code
-- Suivre la convention de nommage
-- Maintenir la cohérence du style
-- Optimiser les requêtes de données
-- Tester sur différents appareils
+ 
